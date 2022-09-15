@@ -1,0 +1,50 @@
+/* Screen over 768px (Desktop) */
+@media screen and (min-width: 769px) {    
+    .container {
+        width: 80%;
+        max-width: 1200px;
+    }
+}
+
+/* Screen max 768px (Tablet) */
+@media screen and (max-width: 768px) {
+    .container {
+        width: 100%;
+    }
+}
+
+/* Screen max 480px (Mobile) */
+@media screen and (max-width: 480px) {
+    .container {
+        width: 91%;
+    }
+    
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .col {
+        margin-bottom: 3.8em;
+    }
+
+    .col:last-child {
+        margin-bottom: 0;
+    }
+
+    .lessons .col {
+        width: 100%;
+    }
+
+    .steps .col {
+        width: 100%;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        margin-bottom: 4em;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+    }
+}
